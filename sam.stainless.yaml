@@ -12,35 +12,35 @@ organization:
 targets:
   go:
     package_name: sam
-    production_repo: null
+    production_repo: DefinitelyATestOrg/sam-node
   terraform:
     provider_name: sam
-    production_repo: null
+    production_repo: DefinitelyATestOrg/sam-terraform
     publish:
       hashicorp_registry: false
   python:
     package_name: sam
-    production_repo: null
+    production_repo: DefinitelyATestOrg/sam-python
     publish:
       pypi: false
   ruby:
     gem_name: sam
-    production_repo: null
+    production_repo: DefinitelyATestOrg/sam-ruby
     publish:
       rubygems: false
   java:
-    reverse_domain: com.sam.api
-    production_repo: null
+    reverse_domain: me.elborai.api
+    production_repo: DefinitelyATestOrg/sam-java
     publish:
       maven: false
   kotlin:
-    reverse_domain: com.sam.api
-    production_repo: null
+    reverse_domain: me.elborai.api
+    production_repo: DefinitelyATestOrg/sam-kotlin
     publish:
       maven: false
   node:
     package_name: sam
-    production_repo: null
+    production_repo: DefinitelyATestOrg/sam-node
     publish:
       npm: false
 
