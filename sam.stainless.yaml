@@ -15,7 +15,7 @@ targets:
     production_repo: DefinitelyATestOrg/sam-node
   terraform:
     provider_name: sam
-    production_repo: DefinitelyATestOrg/sam-terraform
+    production_repo: DefinitelyATestOrg/terraform-provider-sam
     publish:
       hashicorp_registry: false
   python:
