@@ -12,7 +12,7 @@ organization:
 targets:
   go:
     package_name: sam
-    production_repo: DefinitelyATestOrg/sam-node
+    production_repo: DefinitelyATestOrg/sam-go
   terraform:
     provider_name: sam
     production_repo: DefinitelyATestOrg/terraform-provider-sam
