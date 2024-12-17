@@ -89,7 +89,7 @@ resources:
         #
         # [reference]: https://app.stainlessapi.com/docs/reference/config#model
         models:
-          order: Order
+          cool_order: Order
         methods:
           retrieve: get /store/order/{orderId}
           delete: delete /store/order/{orderId}
