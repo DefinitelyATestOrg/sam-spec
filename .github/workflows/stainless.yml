@@ -16,5 +16,4 @@ jobs:
           stainless_api_key: ${{ secrets.STAINLESS_API_KEY }}
           input_path: "openapi.json"
           project_name: "sam"
-          config_path: "sam.stainless.yaml"
           commit_message: ${{ github.event.head_commit.message }}
